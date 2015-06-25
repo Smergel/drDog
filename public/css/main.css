@@ -8,5 +8,71 @@ body {
 header {
 	width: 100vw;
 	height: 100vh;
-	background-color: blue;
+	/*background-image: url("img/facebook-square.svg")*/
+}
+
+/*Nav*/
+
+nav {
+	position: fixed;
+	left: 0;
+	top: 100px;
+}
+
+/*toggle*/
+
+.message {
+	background: grey;
+	color:#FFF;
+	position: fixed;
+	left: -90px;
+	height: 300px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transition: left 300ms cubic-bezier(0, 0, 1, 1);
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100px;
+	z-index: 1px;
+}
+
+.message ul {
+	list-style-type: none;
+}
+
+.toggle {
+  position:fixed;
+  cursor:pointer;
+  left:-200%;
+  top:-200%;
+}
+
+.toggle + label {
+	position: fixed;
+	left: 10px;
+	cursor: pointer;
+	padding: 30px;
+	margin-top: 20px;
+	width: 50px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-image: url("../img/plus.svg");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-color: grey;
+	cursor: pointer;
+	transition: left 300ms cubic-bezier(0, 0, 1, 1);
+	z-index: 1;
+
+}
+
+.toggle:checked ~ .message {
+  left: 0px;
+}
+
+.toggle:checked + label {
+	background-image: url("../img/minus.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	left: 100px;
 }
