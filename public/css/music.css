@@ -1,0 +1,75 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f6f6f6;
+}
+
+/*Header Section*/
+header {
+	width: 100vw;
+	height: 80vh;
+	position: relative;
+	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+header #drDog_logo {
+	width: 350px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -175px;
+}
+
+/*Main Body Section*/
+section {
+	width: 100vw;
+	min-height: 1200px;
+	background-color: #f6f6f6;
+}
+#music {
+	width: 1140px;
+	height: auto;
+	margin: 0 auto;
+}
+#music .combo {
+	height: 500px;
+	width: 100%;
+	margin-top: 50px;
+}
+#music .combo .album {
+	float: left;
+	width: 380px;
+	height: 500px;
+	margin: 20px 20px 0px 0px;
+}
+#music .combo .vid {
+	float: left;
+	width: 740px;
+	height: 600px;
+	/*background-color: grey;*/
+}
+#music .combo .vid iframe {
+	float: left;
+	padding: 20px 20px 20px 20px;
+}
+#music .combo .vid p {
+	margin: 0px 20px;
+}
+
+/*Footer Section*/
+footer {
+	width: 100vw;
+	height: 350px;
+	background-color: tomato;
+}
+
+
+
+
+
+
+
+
