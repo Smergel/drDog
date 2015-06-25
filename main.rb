@@ -4,15 +4,19 @@ get '/index' do
   erb :index
 end
 
-get '/contact' do
-  erb :contact
+get '/music' do
+  erb :music
 end
 
-get '/blog' do
-  erb :blog
+get '/tour' do
+  erb :tour
 end
 
-get '/projects' do
-  erb :projects
+get '/store' do
+  erb :store
+end
+
+get '/about' do
+    erb :about
 end
 
