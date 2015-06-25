@@ -19,20 +19,60 @@ nav {
 	top: 100px;
 }
 
-/*toggle*/
+nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*nav a:hover {
+	background-color: #AAAAAA;
+}*/
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	padding-left: 1.5em;
+	padding-right: ;
+	padding-top: .8em;
+	padding-bottom: .8em;
+	background-color: #cccccc;
+}
+
+nav ul li:hover {
+	background-color: grey;
+}
+
+nav ul li:hover + #test{
+	display: none;
+	background-color: red;
+}
+
+.test {
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin-left: 300px;
+	background-color: blue;
+}
+
+/*Toggle*/
 
 .message {
 	background: grey;
 	color:#FFF;
 	position: fixed;
-	left: -90px;
-	height: 300px;
-	border-top-right-radius: 5px;
+	left: -5.8em;
+	height: 13.6em;
+	margin: 0 auto;
+	padding: 0;
 	border-bottom-right-radius: 5px;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
 	overflow: hidden;
 	box-sizing: border-box;
-	width: 100px;
+	width: 6em;
 	z-index: 1px;
 }
 
@@ -48,31 +88,36 @@ nav {
 }
 
 .toggle + label {
+	display: block;
 	position: fixed;
-	left: 10px;
+	left: .2em;
 	cursor: pointer;
-	padding: 30px;
-	margin-top: 20px;
-	width: 50px;
+	padding-left: 1.5em;
+	padding-right: 1em;
+	padding-top: .8em;
+	padding-bottom: .8em;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	background-image: url("../img/plus.svg");
 	background-repeat: no-repeat;
-	background-size: 15px;
+	background-size: .8em;
+	background-position: .2em center;
 	background-color: grey;
 	cursor: pointer;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
-	z-index: 1;
-
 }
 
+
 .toggle:checked ~ .message {
-  left: 0px;
+  left: 0;
 }
 
 .toggle:checked + label {
 	background-image: url("../img/minus.svg");
 	background-repeat: no-repeat;
-	background-size: 20px;
-	left: 100px;
+	background-size: .8em;
+	left: 6em;
+}
+
+.toggleText {
 }
