@@ -50,7 +50,7 @@ nav ul li:hover + #test{
 	background-color: red;
 }
 
-.test {
+#test {
 	display: block;
 	height: 50px;
 	width: 50px;
