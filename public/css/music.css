@@ -3,12 +3,13 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	background-color: #f6f6f6;
 }
 
 /*Header Section*/
 header {
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
 	position: relative;
 	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
 	background-position: center center;
@@ -23,50 +24,39 @@ header #drDog_logo {
 }
 
 /*Main Body Section*/
-section#one {
+section {
 	width: 100vw;
-	min-height: 1250px;
+	min-height: 1200px;
 	background-color: #f6f6f6;
 }
-#one h2 {
-	text-align: center;
-}
-#news {
+#music {
 	width: 1140px;
 	height: auto;
 	margin: 0 auto;
 }
-#news ul {
-	list-style-type: none;
+#music .combo {
+	height: 500px;
+	width: 100%;
+	margin-top: 50px;
 }
-#news ul li {
-	display: inline-block;
-	width: 320px;
-	height: 250px;
-	margin: 20px;
-	background-color: blue;
+#music .combo .album {
 	float: left;
-	overflow: hidden;
-	position: relative;
+	width: 380px;
+	height: 500px;
+	margin: 20px 20px 0px 0px;
 }
-#news ul li span {
-	position: absolute;
-	background-color: rgba(24, 24, 24, .7);
-	bottom: 20px;
-	left: 20px;
-	color: white;
-	font-size: 25px;
-	padding: 10px 15px;
+#music .combo .vid {
+	float: left;
+	width: 740px;
+	height: 600px;
+	/*background-color: grey;*/
 }
-#news ul li.wide {
-	width: 680px;
+#music .combo .vid iframe {
+	float: left;
+	padding: 20px 20px 20px 20px;
 }
-#news ul li.tall {
-	height: 540px;
-}
-#news ul li.huge {
-	width: 680px;
-	height: 540px;
+#music .combo .vid p {
+	margin: 0px 20px;
 }
 
 /*Footer Section*/

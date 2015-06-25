@@ -8,7 +8,7 @@ body {
 /*Header Section*/
 header {
 	width: 100vw;
-	height: 100vh;
+	height: 50vh;
 	position: relative;
 	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
 	background-position: center center;
@@ -23,50 +23,45 @@ header #drDog_logo {
 }
 
 /*Main Body Section*/
-section#one {
+section {
 	width: 100vw;
-	min-height: 1250px;
+	min-height: 1000px;
 	background-color: #f6f6f6;
 }
-#one h2 {
+#about {
+	width: 1140px;
+	min-height: 1000px;
+	margin: 0 auto;
+/*	background-color: gray;
+*/}
+#about h2, h4 {
 	text-align: center;
 }
-#news {
-	width: 1140px;
-	height: auto;
-	margin: 0 auto;
+#about p {
+	margin: 20px 60px;
+	text-align: justify;
 }
-#news ul {
-	list-style-type: none;
-}
-#news ul li {
-	display: inline-block;
-	width: 320px;
-	height: 250px;
-	margin: 20px;
-	background-color: blue;
+#about .left_sider p {
 	float: left;
-	overflow: hidden;
-	position: relative;
+	padding: 20px 20px 20px 0px;
+	margin-left: -40px;
+	height: 200px;
+	width: 250px;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: right;
+	border-right: 2px solid black;
 }
-#news ul li span {
-	position: absolute;
-	background-color: rgba(24, 24, 24, .7);
-	bottom: 20px;
-	left: 20px;
-	color: white;
-	font-size: 25px;
-	padding: 10px 15px;
-}
-#news ul li.wide {
-	width: 680px;
-}
-#news ul li.tall {
-	height: 540px;
-}
-#news ul li.huge {
-	width: 680px;
-	height: 540px;
+#about .right_sider p {
+	float: right;
+	padding: 20px 0px 20px 20px;
+	margin-right: -40px;
+	height: 200px;
+	width: 300px;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: left;
+	border-left: 2px solid black;
 }
 
 /*Footer Section*/
