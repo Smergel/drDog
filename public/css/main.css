@@ -200,3 +200,21 @@ nav ul li:hover + #test{
 
 .toggleText {
 }
+
+#wrap {
+	width: 1140px;
+	height: 350px;
+	margin: 0 auto;
+	/*background-color: grey;*/
+}
+#wrap #lefter {
+	width: 50%;
+	float: left;
+	height: 350px;
+}
+#wrap #righter {
+	width: 50%;
+	float: left;
+	height: 350px;
+	/*background-color: grey;*/
+}
