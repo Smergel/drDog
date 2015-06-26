@@ -6,6 +6,21 @@ get '/index' do
 end
 
 get '/music' do
+  if params[:send] == "Submit"
+    msg = Mandrill::API.new
+
+    body = {
+      :subject => "Dr Dog Message", 
+      :from_name => "#{params[:name]}",
+      :text => "#{params[:message]}",
+      :to => [{:email => "jacob.smergel@gmail.com", :name => "jake"}],
+      :from_email => "#{params[:email]}"
+    }
+
+    result = msg.messages.send body
+
+    puts result
+  end
   erb :music
 end
 
@@ -25,6 +40,7 @@ post '/contact' do
 
     puts result
   end
+  erb :music
 end
 
 get '/tour' do
