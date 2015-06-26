@@ -9,9 +9,9 @@ body {
 /*Header Section*/
 header {
 	width: 100vw;
-	height: 80vh;
+	height: 40vh;
 	position: relative;
-	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
+	background-image: url(https://fanart.tv/api/download.php?type=download&image=22732&section=2);
 	background-position: center center;
 	background-size: cover;
 }
@@ -52,11 +52,16 @@ section {
 	/*background-color: grey;*/
 }
 #music .combo .vid iframe {
-	float: left;
-	padding: 20px 20px 20px 20px;
+	float: right;
+	padding: 30px 0px 30px 30px;
+	margin-right: 40px;
 }
 #music .combo .vid p {
-	margin: 0px 20px;
+	margin: 0px 40px;
+	text-align: justify;
+}
+#music .combo .vid h2, h4 {
+	margin-left: 40px;
 }
 
 /*Footer Section*/

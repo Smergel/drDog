@@ -3,14 +3,15 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	background-color: #f6f6f6;
 }
 
 /*Header Section*/
 header {
 	width: 100vw;
-	height: 50vh;
+	height: 40vh;
 	position: relative;
-	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
+	background-image: url(http://media.npr.org/assets/music/concerts/livefridays/2010/04/drdog_wide-9e3583cf97f0f6cbeab6e55e7e1f45e04a63e82e.jpg?s=1400);
 	background-position: center center;
 	background-size: cover;
 }

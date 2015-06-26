@@ -3,14 +3,15 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	background-color: #f6f6f6;
 }
 
 /*Header Section*/
 header {
 	width: 100vw;
-	height: 80vh;
+	height: 40vh;
 	position: relative;
-	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
+	background-image: url(https://www.fest300.com/system/images/W1siZiIsIjIwMTUvMDEvMTkvMjMvMjIvNTQvNDYxL0RyLl9Eb2dfYnlfTG91aXNfS3dvay5qcGciXV0/Dr._Dog_by_Louis_Kwok.jpg);
 	background-position: center center;
 	background-size: cover;
 }
