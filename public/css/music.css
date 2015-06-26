@@ -4,25 +4,30 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #f6f6f6;
+	font-family: "Verdana";
+	background-image: url(http://media.lehighvalleylive.com/music_impact/photo/dr-dog-fce78d3db07fc8d4.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center center;
 }
 
 /*Header Section*/
-header {
+/*header {
 	width: 100vw;
 	height: 40vh;
 	position: relative;
 	background-image: url(https://fanart.tv/api/download.php?type=download&image=22732&section=2);
 	background-position: center center;
 	background-size: cover;
-	z-index: -100;
+	z-index: -100;*/
 }
-header #drDog_logo {
+/*header #drDog_logo {
 	width: 350px;
 	height: auto;
 	position: absolute;
 	left: 50%;
 	margin-left: -175px;
-}
+}*/
 
 /*Main Body Section*/
 section {
@@ -32,11 +37,10 @@ section {
 }
 #one #page {
 	color: black;
+	text-align: center;
 	background-color: #f6f6f6;
 	font-size: 7em;
-	text-align: center;
-	width: 600px;
-	margin: -50px auto 0px auto;
+	margin: -50px 0px 0px 0px;
 	z-index: 100;
 }
 #music {
@@ -63,7 +67,7 @@ section {
 }
 #music .combo .vid iframe {
 	float: right;
-	padding: 30px 0px 30px 30px;
+	padding: 30px 0px 20px 40px;
 	margin-right: 40px;
 }
 #music .combo .vid p {

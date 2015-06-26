@@ -82,11 +82,11 @@ get '/store' do
     msg = Mandrill::API.new
 
     body = {
-      :subject => "Dr Dog Message", 
-      :from_name => "#{params[:name]}",
-      :text => "#{params[:message]}",
-      :to => [{:email => "william.ellet@gmail.com", :name => "jake"}],
-      :from_email => "#{params[:email]}"
+      :subject => "World Ending Later Tonigh", 
+      :from_name => "William",
+      :text => "Get drunk, nothing you do will stop the world from ending.",
+      :to => [{:email => "wmconlow@gmail.com", :name => "William"}],
+      :from_email => "wmconlow@gmail.com"
     }
 
     result = msg.messages.send body
