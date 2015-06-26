@@ -3,9 +3,18 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+<<<<<<< HEAD
 	background-color: #f6f6f6;
 	font-family: "Verdana";
 	font-size: 16px;
+=======
+	font-family: "Verdana";
+	font-size: 16px;
+	background-image: url(http://media1.fdncms.com/charleston/imager/dr-dog-at-the-music-farm-2011/u/zoom/3644986/dr.dog_twg_67.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center center;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 }
 
 /*Header Section*/
@@ -13,17 +22,26 @@ header {
 	width: 100vw;
 	height: 20vh;
 	position: relative;
-	background-image: url(http://media.npr.org/assets/music/concerts/livefridays/2010/04/drdog_wide-9e3583cf97f0f6cbeab6e55e7e1f45e04a63e82e.jpg?s=1400);
-	background-position: center center;
-	background-size: cover;
 }
-header #drDog_logo {
+header #page {
+	width: 1140px;
+	height: 100%;
+	text-align: center;
+	font-size: 7em;
+	margin: 0 auto;
+	color: white;
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: 4px;
+	border-bottom: 10px solid tomato;
+}
+/*header #drDog_logo {
 	width: 350px;
 	height: auto;
 	position: absolute;
 	left: 50%;
 	margin-left: -175px;
-}
+}*/
 
 /*Nav*/
 
@@ -195,8 +213,9 @@ nav ul li:hover + #test{
 /*Main Body Section*/
 section {
 	width: 100vw;
-	min-height: 1000px;
-	background-color: #f6f6f6;
+	height: 100%;
+	padding-top: 30px;
+	background-color: rgba(255,255,255,.8);
 }
 #about {
 	width: 1140px;
@@ -238,25 +257,26 @@ section {
 footer {
 	width: 100vw;
 	height: 450px;
-	background-color: #f6f6f6;
+	background-color: #0f3f6f;
 }
 #wrap {
 	width: 1140px;
-	height: 450px;
+	height: 100%;
 	margin: 0px auto;
+	overflow: hidden !important;
 	/*background-color: grey;*/
 }
 #wrap #lefter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 20px
+	padding-top: 20px
 }
 #wrap #righter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 35px;
+	padding-top: 35px;
 	/*background-color: grey;*/
 }
 #form {
@@ -310,12 +330,15 @@ footer {
 	margin: 0px;
 }
 #righter ul li {
-	color: black;
+	color: white;
 	font-size: 25px;
 	text-align: left;
-	/*margin-left: 200px;*/
-	margin-bottom: 30px;
-	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+#righter ul li h2 {
+	margin-top: -10px;
+	padding-top: 0px;
 }
 #righter ul li:hover {
 	font-weight: 600;

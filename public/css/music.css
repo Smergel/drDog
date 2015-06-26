@@ -3,18 +3,22 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #f6f6f6;
 	font-family: "Verdana";
 	font-size: 16px;
+<<<<<<< HEAD
 	background-image: url(http://media.lehighvalleylive.com/music_impact/photo/dr-dog-fce78d3db07fc8d4.jpg);
+=======
+	background-image: url(http://media2.fdncms.com/nashville/imager/dr-dog/u/zoom/2797581/spin1-1.jpg);
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	background-size: cover;
 	background-repeat: none;
 	background-position: center center;
 }
 
 /*Header Section*/
-/*header {
+header {
 	width: 100vw;
+<<<<<<< HEAD
 	height: 40vh;
 	position: relative;
 	background-image: url(https://fanart.tv/api/download.php?type=download&image=22732&section=2);
@@ -22,6 +26,23 @@ body {
 	background-size: cover;
 	z-index: -100;*/
 /*}*/
+=======
+	height: 20vh;
+	background-color: #0f3f6f;
+}
+header #page {
+	width: 1140px;
+	height: 100%;
+	text-align: center;
+	font-size: 7em;
+	margin: 0 auto;
+	color: white;
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: 4px;
+	border-bottom: 10px solid tomato;
+}
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 /*header #drDog_logo {
 	width: 350px;
 	height: auto;
@@ -200,16 +221,9 @@ nav ul li:hover + #test{
 /*Main Body Section*/
 section {
 	width: 100vw;
-	height: 2400px;
-	background-color: #f6f6f6;
-}
-#one #page {
-	color: black;
-	text-align: center;
-	background-color: #f6f6f6;
-	font-size: 7em;
-	margin: -50px 0px 0px 0px;
-	z-index: 100;
+	height: 100%;
+	padding-top: 30px;
+	background-color: rgba(255,255,255,.8);
 }
 #music {
 	width: 1140px;
@@ -219,7 +233,7 @@ section {
 #music .combo {
 	height: 500px;
 	width: 100%;
-	margin-top: 50px;
+	padding: 50px 0px 200px 0px;
 }
 #music .combo .album {
 	float: left;
@@ -249,31 +263,27 @@ section {
 /*Footer Section*/
 footer {
 	width: 100vw;
-<<<<<<< HEAD
-	height: 350px;
-	background-color: tomato;
-}
-=======
 	height: 450px;
-	background-color: #e6e6e6;
+	background-color: #0f3f6f;
 }
 #wrap {
 	width: 1140px;
-	height: 450px;
+	height: 100%;
 	margin: 0px auto;
+	overflow: hidden !important;
 	/*background-color: grey;*/
 }
 #wrap #lefter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 20px
+	padding-top: 20px
 }
 #wrap #righter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 35px;
+	padding-top: 35px;
 	/*background-color: grey;*/
 }
 #form {
@@ -327,12 +337,15 @@ footer {
 	margin: 0px;
 }
 #righter ul li {
-	color: black;
+	color: white;
 	font-size: 25px;
 	text-align: left;
-	/*margin-left: 200px;*/
-	margin-bottom: 30px;
-	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+#righter ul li h2 {
+	margin-top: -10px;
+	padding-top: 0px;
 }
 #righter ul li:hover {
 	font-weight: 600;
@@ -340,13 +353,3 @@ footer {
 #righter div img {
 	margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
->>>>>>> a133fb70b7db30cf61ef8143073f8c66b8005ccd

@@ -3,7 +3,10 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+<<<<<<< HEAD
 	background-color: #f6f6f6;
+=======
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	font-family: "Verdana";
 	font-size: 16px;
 }
@@ -30,12 +33,6 @@ section#one {
 	width: 100vw;
 	min-height: 1250px;
 	background-color: #f6f6f6;
-}
-#one #page {
-	font-size: 7em;
-	color: black;
-	background-color: white;
-	padding-top: 25px 35px;
 }
 #one h2 {
 	text-align: center;
@@ -94,25 +91,26 @@ section#one {
 footer {
 	width: 100vw;
 	height: 450px;
-	/*background-color: #e6e6e6;*/
+	background-color: #0f3f6f;
 }
 #wrap {
 	width: 1140px;
-	height: 450px;
+	height: 100%;
 	margin: 0px auto;
+	overflow: hidden !important;
 	/*background-color: grey;*/
 }
 #wrap #lefter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 20px
+	padding-top: 20px
 }
 #wrap #righter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 35px;
+	padding-top: 35px;
 	/*background-color: grey;*/
 }
 #form {
@@ -166,12 +164,15 @@ footer {
 	margin: 0px;
 }
 #righter ul li {
-	color: black;
+	color: white;
 	font-size: 25px;
 	text-align: left;
-	/*margin-left: 200px;*/
-	margin-bottom: 30px;
-	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+#righter ul li h2 {
+	margin-top: -10px;
+	padding-top: 0px;
 }
 #righter ul li:hover {
 	font-weight: 600;
@@ -186,7 +187,6 @@ nav {
 	position: fixed;
 	left: 0;
 	top: 100px;
-	z-index: 1;
 }
 
 nav a {
@@ -194,12 +194,8 @@ nav a {
 	color: #FFFFFF;
 }
 
-.currentNav {
-	background-color: grey;
-}
-
-.currentNav.hov {
-	background-color: #cccccc;
+nav a:hover {
+	background-color: #AAAAAA;
 }
 
 nav ul {
@@ -208,15 +204,21 @@ nav ul {
 }
 
 nav ul li {
+<<<<<<< HEAD
 	padding-left: 20px;
 	padding-top: 10px;
 	height: 30px;
+=======
+	padding-left: 1.5em;
+	padding-right: ;
+	padding-top: .8em;
+	padding-bottom: .8em;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	background-color: #cccccc;
 }
 
 nav ul li:hover {
 	background-color: grey;
-	border-radius-top: 0;
 }
 
 nav ul li:hover + #test{
@@ -235,10 +237,16 @@ nav ul li:hover + #test{
 	width: 100px;
 	margin: 0 auto;
 	padding: 0;
+	border-bottom-right-radius: 5px;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
 	overflow: hidden;
 	box-sizing: border-box;
+<<<<<<< HEAD
 	
+=======
+	width: 6em;
+	z-index: 1;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 }
 
 .message ul {
@@ -257,22 +265,35 @@ nav ul li:hover + #test{
 	position: fixed;
 	left: 5px;
 	cursor: pointer;
+<<<<<<< HEAD
 	padding-top: 7px;
 	padding-right: 35px;
 	padding-bottom: 3px;
 	font-size: 20px;
 	height: 30px;
+=======
+	padding-left: 1.5em;
+	padding-right: 1em;
+	padding-top: .8em;
+	padding-bottom: .8em;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	background-image: url("../img/plus.svg");
 	background-repeat: no-repeat;
+<<<<<<< HEAD
 	background-size: 15px;
 	background-position: 30px center;
+=======
+	background-size: .8em;
+	background-position: .2em center;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	background-color: grey;
 	cursor: pointer;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
 }
 
+<<<<<<< HEAD
 #toggleHome{
 	top: 100px;
 }
@@ -292,6 +313,8 @@ nav ul li:hover + #test{
 #toggleAbout {
 	top: 260px;
 }
+=======
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 
 .toggle:checked ~ .message {
   left: 0;
@@ -302,6 +325,7 @@ nav ul li:hover + #test{
 	left: 100px;
 }
 
+<<<<<<< HEAD
 .expandingTab {
 	position: fixed;
 	left: 5px;
@@ -345,20 +369,8 @@ nav ul li:hover + #test{
 #aboutTab {
 	top: 260px;
 	display: none;
+=======
+.toggleText {
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 }
 
-#wrap {
-	width: 1140px;
-	height: 350px;
-	margin: 0 auto;
-}
-#wrap #lefter {
-	width: 50%;
-	float: left;
-	height: 350px;
-}
-#wrap #righter {
-	width: 50%;
-	float: left;
-	height: 350px;
-}
