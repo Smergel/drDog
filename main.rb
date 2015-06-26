@@ -7,6 +7,9 @@ end
 
 get '/music' do
   erb :music
+end
+
+post '/contact' do
   if params[:send] == "Submit"
     msg = Mandrill::API.new
 
