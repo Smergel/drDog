@@ -77,19 +77,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-=======
-header {
-	width: 100vw;
-	height: 100vh;
-	/*background-image: url("img/facebook-square.svg")*/
-}
-
 /*Nav*/
 
 nav {
@@ -129,7 +116,7 @@ nav ul li:hover + #test{
 	background-color: red;
 }
 
-.test {
+#test {
 	display: block;
 	height: 50px;
 	width: 50px;
