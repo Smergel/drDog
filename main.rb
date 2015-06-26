@@ -24,24 +24,24 @@ get '/music' do
   erb :music
 end
 
-post '/contact' do
-  if params[:send] == "Submit"
-    msg = Mandrill::API.new
+# post '/contact' do
+#   if params[:send] == "Submit"
+#     msg = Mandrill::API.new
 
-    body = {
-      :subject => "Dr Dog Message", 
-      :from_name => "#{params[:name]}",
-      :text => "#{params[:message]}",
-      :to => [{:email => "jacob.smergel@gmail.com", :name => "jake"}],
-      :from_email => "#{params[:email]}"
-    }
+#     body = {
+#       :subject => "Dr Dog Message", 
+#       :from_name => "#{params[:name]}",
+#       :text => "#{params[:message]}",
+#       :to => [{:email => "jacob.smergel@gmail.com", :name => "jake"}],
+#       :from_email => "#{params[:email]}"
+#     }
 
-    result = msg.messages.send body
+#     result = msg.messages.send body
 
-    puts result
-  end
-  erb :music
-end
+#     puts result
+#   end
+#   erb :music
+# end
 
 get '/tour' do
   erb :tour
