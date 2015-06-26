@@ -3,24 +3,37 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #f6f6f6;
+	font-family: "Verdana";
+	font-size: 16px;
+	background-image: url(http://media2.fdncms.com/charleston/imager/dr-dog-at-the-music-farm-2011/u/zoom/3644992/dr.dog_twg_87.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center center;
 }
 
 /*Header Section*/
 header {
 	width: 100vw;
 	height: 40vh;
-	position: relative;
-	background-image: url(https://www.fest300.com/system/images/W1siZiIsIjIwMTUvMDEvMTkvMjMvMjIvNTQvNDYxL0RyLl9Eb2dfYnlfTG91aXNfS3dvay5qcGciXV0/Dr._Dog_by_Louis_Kwok.jpg);
-	background-position: center center;
-	background-size: cover;
 }
-header #drDog_logo {
+/*header #drDog_logo {
 	width: 350px;
 	height: auto;
 	position: absolute;
 	left: 50%;
 	margin-left: -175px;
+}*/
+header #page {
+	width: 1140px;
+	height: 100%;
+	text-align: center;
+	font-size: 7em;
+	margin: 0 auto;
+	color: white;
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: 4px;
+	border-bottom: 10px solid tomato;
 }
 
 /*Nav*/
@@ -194,8 +207,9 @@ nav ul li:hover + #test{
 /*Main Body Section*/
 section {
 	width: 100vw;
-	min-height: 1000px;
-	background-color: #f6f6f6;
+	height: 100%;
+	padding-top: 30px;
+	background-color: rgba(255,255,255,.8);
 }
 #touring {
 	width: 1140px;
