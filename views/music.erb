@@ -4,14 +4,33 @@
 		<meta charset="UTF-8">
 		<title>Dr Dog: Music</title>
 		<link rel="stylesheet" type="text/css" href="css/music.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 	<body>
 		<header>
 			<div id="drDog_logo"><img src="http://www.drdogmusic.com/_/images/dr_dog.png"  width="350"/></div>
 		</header>
+		
 		<nav>
-			
-		</nav>
+				<input type="checkbox" name="home" id="toggle" class="toggle"/>
+					<label for="toggle" id="toggleMusic"><div class="toggleText"><i class="fa fa-music"></i></div></label>
+					<div class="message">
+					<ul>
+						<a href="/index"><li id="homeNav">Home</li></a>
+						<a href="/music"><li class="currentNav">Music</li></a>
+						<a href="/tour"><li id="tourNav">Tour</li></a>
+						<a href="/store"><li id="storeNav">Store</li></a>
+						<a href="/about"><li id="aboutNav">About</li></a>
+					</ul>
+				</div>
+				<div class="expandingTab" id="homeTab"><i class="fa fa-home"></i></div>
+				<!-- <div class="expandingTab" id="musicTab"><i class="fa fa-music"></i></div> -->
+				<div class="expandingTab" id="tourTab"><i class="fa fa-bus"></i></div>
+				<div class="expandingTab" id="storeTab"><i class="fa fa-shopping-cart"></i></div>
+				<div class="expandingTab" id="aboutTab"><i class="fa fa-info-circle"></i></div>
+			</nav>
+		
 		<section id="one">
 
 			<div id="music">
@@ -136,5 +155,6 @@
 		<footer>
 			
 		</footer>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
