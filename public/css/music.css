@@ -4,24 +4,30 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #f6f6f6;
+	font-family: "Verdana";
+	background-image: url(http://media.lehighvalleylive.com/music_impact/photo/dr-dog-fce78d3db07fc8d4.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center center;
 }
 
 /*Header Section*/
-header {
+/*header {
 	width: 100vw;
-	height: 80vh;
+	height: 40vh;
 	position: relative;
-	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
+	background-image: url(https://fanart.tv/api/download.php?type=download&image=22732&section=2);
 	background-position: center center;
 	background-size: cover;
+	z-index: -100;*/
 }
-header #drDog_logo {
+/*header #drDog_logo {
 	width: 350px;
 	height: auto;
 	position: absolute;
 	left: 50%;
 	margin-left: -175px;
-}
+}*/
 
 /*Nav*/
 
@@ -189,8 +195,16 @@ nav ul li:hover + #test{
 /*Main Body Section*/
 section {
 	width: 100vw;
-	min-height: 1200px;
+	height: 2400px;
 	background-color: #f6f6f6;
+}
+#one #page {
+	color: black;
+	text-align: center;
+	background-color: #f6f6f6;
+	font-size: 7em;
+	margin: -50px 0px 0px 0px;
+	z-index: 100;
 }
 #music {
 	width: 1140px;
@@ -215,16 +229,119 @@ section {
 	/*background-color: grey;*/
 }
 #music .combo .vid iframe {
-	float: left;
-	padding: 20px 20px 20px 20px;
+	float: right;
+	padding: 30px 0px 20px 40px;
+	margin-right: 40px;
 }
 #music .combo .vid p {
-	margin: 0px 20px;
+	margin: 0px 40px;
+	text-align: justify;
+}
+#music .combo .vid h2, h4 {
+	margin-left: 40px;
 }
 
 /*Footer Section*/
 footer {
 	width: 100vw;
+<<<<<<< HEAD
 	height: 350px;
 	background-color: tomato;
 }
+=======
+	height: 450px;
+	background-color: #e6e6e6;
+}
+#wrap {
+	width: 1140px;
+	height: 450px;
+	margin: 0px auto;
+	/*background-color: grey;*/
+}
+#wrap #lefter {
+	width: 50%;
+	float: left;
+	height: 450px;
+	margin-top: 20px
+}
+#wrap #righter {
+	width: 50%;
+	float: left;
+	height: 450px;
+	margin-top: 35px;
+	/*background-color: grey;*/
+}
+#form {
+}
+#form div {
+	text-align: center;
+}
+#form #name {
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;
+	border: 2px solid black;
+	font-size: 18px;
+}
+#form #email {
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;	
+	border: 2px solid black;
+	font-size: 18px;
+
+}
+#form #message {
+	width: 400px;
+	height: 150px;
+	margin-top: 20px;
+	border: 2px solid black;
+	font-size: 18px;
+}
+#form #send {
+	background-color: white;
+	border: 2px solid black;
+	padding: 5px 50px;
+	margin-top: 10px;
+	font-size: 18px;
+
+} 
+#form #send:hover {
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+}
+#righter div {
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
+#righter ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#righter ul li {
+	color: black;
+	font-size: 25px;
+	text-align: left;
+	/*margin-left: 200px;*/
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+#righter ul li:hover {
+	font-weight: 600;
+}
+#righter div img {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+>>>>>>> a133fb70b7db30cf61ef8143073f8c66b8005ccd

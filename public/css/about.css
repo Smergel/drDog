@@ -3,14 +3,15 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	background-color: #f6f6f6;
 }
 
 /*Header Section*/
 header {
 	width: 100vw;
-	height: 50vh;
+	height: 20vh;
 	position: relative;
-	background-image: url(http://artandseek.net/wp-content/uploads/2012/09/dr.dog_.jpg);
+	background-image: url(http://media.npr.org/assets/music/concerts/livefridays/2010/04/drdog_wide-9e3583cf97f0f6cbeab6e55e7e1f45e04a63e82e.jpg?s=1400);
 	background-position: center center;
 	background-size: cover;
 }
@@ -230,10 +231,92 @@ section {
 /*Footer Section*/
 footer {
 	width: 100vw;
-	height: 350px;
-	background-color: tomato;
+	height: 450px;
+	background-color: #f6f6f6;
 }
+#wrap {
+	width: 1140px;
+	height: 450px;
+	margin: 0px auto;
+	/*background-color: grey;*/
+}
+#wrap #lefter {
+	width: 50%;
+	float: left;
+	height: 450px;
+	margin-top: 20px
+}
+#wrap #righter {
+	width: 50%;
+	float: left;
+	height: 450px;
+	margin-top: 35px;
+	/*background-color: grey;*/
+}
+#form {
+}
+#form div {
+	text-align: center;
+}
+#form #name {
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;
+	border: 2px solid black;
+	font-size: 18px;
+}
+#form #email {
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;	
+	border: 2px solid black;
+	font-size: 18px;
 
+}
+#form #message {
+	width: 400px;
+	height: 150px;
+	margin-top: 20px;
+	border: 2px solid black;
+	font-size: 18px;
+}
+#form #send {
+	background-color: white;
+	border: 2px solid black;
+	padding: 5px 50px;
+	margin-top: 10px;
+	font-size: 18px;
+
+} 
+#form #send:hover {
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+}
+#righter div {
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
+#righter ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#righter ul li {
+	color: black;
+	font-size: 25px;
+	text-align: left;
+	/*margin-left: 200px;*/
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+#righter ul li:hover {
+	font-weight: 600;
+}
+#righter div img {
+	margin-top: 20px;
+}
 
 
 
