@@ -247,25 +247,26 @@ section {
 footer {
 	width: 100vw;
 	height: 450px;
-	background-color: #f6f6f6;
+	background-color: #0f3f6f;
 }
 #wrap {
 	width: 1140px;
-	height: 450px;
+	height: 100%;
 	margin: 0px auto;
+	overflow: hidden !important;
 	/*background-color: grey;*/
 }
 #wrap #lefter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 20px
+	padding-top: 20px
 }
 #wrap #righter {
 	width: 50%;
 	float: left;
 	height: 450px;
-	margin-top: 35px;
+	padding-top: 35px;
 	/*background-color: grey;*/
 }
 #form {
@@ -319,12 +320,15 @@ footer {
 	margin: 0px;
 }
 #righter ul li {
-	color: black;
+	color: white;
 	font-size: 25px;
 	text-align: left;
-	/*margin-left: 200px;*/
-	margin-bottom: 30px;
-	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+#righter ul li h2 {
+	margin-top: -10px;
+	padding-top: 0px;
 }
 #righter ul li:hover {
 	font-weight: 600;
