@@ -77,19 +77,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-=======
-header {
-	width: 100vw;
-	height: 100vh;
-	/*background-image: url("img/facebook-square.svg")*/
-}
-
 /*Nav*/
 
 nav {
@@ -103,9 +90,9 @@ nav a {
 	color: #FFFFFF;
 }
 
-/*nav a:hover {
+nav a:hover {
 	background-color: #AAAAAA;
-}*/
+}
 
 nav ul {
 	margin: 0;
@@ -152,7 +139,7 @@ nav ul li:hover + #test{
 	overflow: hidden;
 	box-sizing: border-box;
 	width: 6em;
-	z-index: 1px;
+	z-index: 1;
 }
 
 .message ul {
