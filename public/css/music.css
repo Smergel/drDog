@@ -5,11 +5,7 @@ body {
 	padding: 0px;
 	font-family: "Verdana";
 	font-size: 16px;
-<<<<<<< HEAD
-	background-image: url(http://media.lehighvalleylive.com/music_impact/photo/dr-dog-fce78d3db07fc8d4.jpg);
-=======
 	background-image: url(http://media2.fdncms.com/nashville/imager/dr-dog/u/zoom/2797581/spin1-1.jpg);
->>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	background-size: cover;
 	background-repeat: none;
 	background-position: center center;
@@ -18,15 +14,6 @@ body {
 /*Header Section*/
 header {
 	width: 100vw;
-<<<<<<< HEAD
-	height: 40vh;
-	position: relative;
-	background-image: url(https://fanart.tv/api/download.php?type=download&image=22732&section=2);
-	background-position: center center;
-	background-size: cover;
-	z-index: -100;*/
-/*}*/
-=======
 	height: 20vh;
 	background-color: #0f3f6f;
 }
@@ -42,14 +29,6 @@ header #page {
 	letter-spacing: 4px;
 	border-bottom: 10px solid tomato;
 }
->>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
-/*header #drDog_logo {
-	width: 350px;
-	height: auto;
-	position: absolute;
-	left: 50%;
-	margin-left: -175px;
-}*/
 
 /*Nav*/
 

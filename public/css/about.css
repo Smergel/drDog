@@ -3,18 +3,12 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-<<<<<<< HEAD
-	background-color: #f6f6f6;
-	font-family: "Verdana";
-	font-size: 16px;
-=======
 	font-family: "Verdana";
 	font-size: 16px;
 	background-image: url(http://media1.fdncms.com/charleston/imager/dr-dog-at-the-music-farm-2011/u/zoom/3644986/dr.dog_twg_67.jpg);
 	background-size: cover;
 	background-repeat: none;
 	background-position: center center;
->>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 }
 
 /*Header Section*/
