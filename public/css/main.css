@@ -3,6 +3,10 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+<<<<<<< HEAD
+	background-color: #f6f6f6;
+=======
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	font-family: "Verdana";
 	font-size: 16px;
 }
@@ -200,10 +204,16 @@ nav ul {
 }
 
 nav ul li {
+<<<<<<< HEAD
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 30px;
+=======
 	padding-left: 1.5em;
 	padding-right: ;
 	padding-top: .8em;
 	padding-bottom: .8em;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	background-color: #cccccc;
 }
 
@@ -216,30 +226,27 @@ nav ul li:hover + #test{
 	background-color: red;
 }
 
-#test {
-	display: block;
-	height: 50px;
-	width: 50px;
-	margin-left: 300px;
-	background-color: blue;
-}
-
 /*Toggle*/
 
 .message {
 	background: grey;
 	color:#FFF;
 	position: fixed;
-	left: -5.8em;
-	height: 13.6em;
+	left: -95px;
+	height: 200px;
+	width: 100px;
 	margin: 0 auto;
 	padding: 0;
 	border-bottom-right-radius: 5px;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
 	overflow: hidden;
 	box-sizing: border-box;
+<<<<<<< HEAD
+	
+=======
 	width: 6em;
 	z-index: 1;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 }
 
 .message ul {
@@ -256,23 +263,58 @@ nav ul li:hover + #test{
 .toggle + label {
 	display: block;
 	position: fixed;
-	left: .2em;
+	left: 5px;
 	cursor: pointer;
+<<<<<<< HEAD
+	padding-top: 7px;
+	padding-right: 35px;
+	padding-bottom: 3px;
+	font-size: 20px;
+	height: 30px;
+=======
 	padding-left: 1.5em;
 	padding-right: 1em;
 	padding-top: .8em;
 	padding-bottom: .8em;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	background-image: url("../img/plus.svg");
 	background-repeat: no-repeat;
+<<<<<<< HEAD
+	background-size: 15px;
+	background-position: 30px center;
+=======
 	background-size: .8em;
 	background-position: .2em center;
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 	background-color: grey;
 	cursor: pointer;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
 }
 
+<<<<<<< HEAD
+#toggleHome{
+	top: 100px;
+}
+
+#toggleMusic {
+	top: 140px;
+}
+
+#toggleTour {
+	top: 180px;
+}
+
+#toggleStore {
+	top: 220px;
+}
+
+#toggleAbout {
+	top: 260px;
+}
+=======
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 
 .toggle:checked ~ .message {
   left: 0;
@@ -280,11 +322,55 @@ nav ul li:hover + #test{
 
 .toggle:checked + label {
 	background-image: url("../img/minus.svg");
-	background-repeat: no-repeat;
-	background-size: .8em;
-	left: 6em;
+	left: 100px;
 }
 
+<<<<<<< HEAD
+.expandingTab {
+	position: fixed;
+	left: 5px;
+	cursor: pointer;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	font-size: 20px;
+	height: 30px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: grey;
+	cursor: pointer;
+	transition: left 300ms cubic-bezier(0, 0, 1, 1);
+	z-index: 2;
+}
+
+.toggle:checked ~ .expandingTab {
+  left: 100px;
+}
+
+#homeTab  {
+	display: none;
+}
+
+#musicTab  {
+	top: 140px;
+	display: none;
+}
+
+#tourTab {
+	top: 180px;
+	display: none;
+}
+
+#storeTab {
+	top: 220px;
+	display: none;
+}
+
+#aboutTab {
+	top: 260px;
+	display: none;
+=======
 .toggleText {
+>>>>>>> ba98139e4dbd8e3d6d8c23d0b6ab48f96c8afc72
 }
 
