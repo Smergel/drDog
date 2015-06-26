@@ -5,7 +5,7 @@ body {
 	padding: 0px;
 	background-color: #f6f6f6;
 	font-family: "Verdana";
-	background-image: url(http://media.lehighvalleylive.com/music_impact/photo/dr-dog-fce78d3db07fc8d4.jpg);
+	background-image: url(http://media2.fdncms.com/nashville/imager/dr-dog/u/zoom/2797581/spin1-1.jpg);
 	background-size: cover;
 	background-repeat: none;
 	background-position: center center;
@@ -40,7 +40,7 @@ section {
 	text-align: center;
 	background-color: #f6f6f6;
 	font-size: 7em;
-	margin: -50px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	z-index: 100;
 }
 #music {
