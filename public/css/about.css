@@ -15,7 +15,7 @@ body {
 header {
 	width: 100vw;
 	height: 20vh;
-	position: relative;
+	background-color: #0f3f6f;
 }
 header #page {
 	width: 1140px;
