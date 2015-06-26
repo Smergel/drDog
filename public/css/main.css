@@ -184,6 +184,7 @@ nav {
 	position: fixed;
 	left: 0;
 	top: 100px;
+	z-index: 1;
 }
 
 nav a {
@@ -191,8 +192,12 @@ nav a {
 	color: #FFFFFF;
 }
 
-nav a:hover {
-	background-color: #AAAAAA;
+.currentNav {
+	background-color: grey;
+}
+
+.currentNav.hov {
+	background-color: #cccccc;
 }
 
 nav ul {
@@ -201,8 +206,7 @@ nav ul {
 }
 
 nav ul li {
-	padding-left: 1.5em;
-	padding-right: ;
+	padding-left: 1.7em;
 	padding-top: .8em;
 	padding-bottom: .8em;
 	background-color: #cccccc;
@@ -210,6 +214,7 @@ nav ul li {
 
 nav ul li:hover {
 	background-color: grey;
+	border-radius-top: 0;
 }
 
 nav ul li:hover + #test{
@@ -235,12 +240,10 @@ nav ul li:hover + #test{
 	height: 13.6em;
 	margin: 0 auto;
 	padding: 0;
-	border-bottom-right-radius: 5px;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
 	overflow: hidden;
 	box-sizing: border-box;
 	width: 6em;
-	z-index: 1;
 }
 
 .message ul {
@@ -259,8 +262,8 @@ nav ul li:hover + #test{
 	position: fixed;
 	left: .2em;
 	cursor: pointer;
-	padding-left: 1.5em;
-	padding-right: 1em;
+	padding-left: .5em;
+	padding-right: 2em;
 	padding-top: .8em;
 	padding-bottom: .8em;
 	border-top-right-radius: 5px;
@@ -268,10 +271,14 @@ nav ul li:hover + #test{
 	background-image: url("../img/plus.svg");
 	background-repeat: no-repeat;
 	background-size: .8em;
-	background-position: .2em center;
+	background-position: 2.1em center;
 	background-color: grey;
 	cursor: pointer;
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
+}
+
+#toggleHome {
+	top: 100px;
 }
 
 
@@ -286,6 +293,63 @@ nav ul li:hover + #test{
 	left: 6em;
 }
 
-.toggleText {
+.expandingTab {
+	position: fixed;
+	left: -5.8em;
+	cursor: pointer;
+	border: 0;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .8em;
+	padding-bottom: .8em;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: grey;
+	cursor: pointer;
+	transition: left 300ms cubic-bezier(0, 0, 1, 1);
+	z-index: 2;
 }
 
+.toggle:checked ~ .expandingTab {
+  left: 6em;
+}
+
+#homeTab  {
+	display: none;
+}
+
+#musicTab  {
+	top: 9em;
+	display: none;
+}
+
+#tourTab {
+	top: 11.7em;
+	display: none;
+}
+
+#storeTab {
+	top: 14.4em;
+	display: none;
+}
+
+#aboutTab {
+	top: 17.1em;
+	display: none;
+}
+
+#wrap {
+	width: 1140px;
+	height: 350px;
+	margin: 0 auto;
+}
+#wrap #lefter {
+	width: 50%;
+	float: left;
+	height: 350px;
+}
+#wrap #righter {
+	width: 50%;
+	float: left;
+	height: 350px;
+}
