@@ -14,6 +14,7 @@ header {
 	background-image: url(https://fanart.tv/api/download.php?type=download&image=22732&section=2);
 	background-position: center center;
 	background-size: cover;
+	z-index: -100;
 }
 header #drDog_logo {
 	width: 350px;
@@ -22,21 +23,21 @@ header #drDog_logo {
 	left: 50%;
 	margin-left: -175px;
 }
-#page {
-	position: absolute;
-	right: 100px;
-	bottom: 100px;
-	font-size: 5.5em;
-	color: white;
-	font-weight: 700;
-	text-shadow: 4px 4px black;
-}
 
 /*Main Body Section*/
 section {
 	width: 100vw;
 	height: 2400px;
 	background-color: #f6f6f6;
+}
+#one #page {
+	color: black;
+	background-color: #f6f6f6;
+	font-size: 7em;
+	text-align: center;
+	width: 600px;
+	margin: -50px auto 0px auto;
+	z-index: 100;
 }
 #music {
 	width: 1140px;
@@ -149,7 +150,7 @@ footer {
 	margin: 0px;
 }
 #righter ul li {
-	color: red;
+	color: black;
 	font-size: 25px;
 	text-align: left;
 	/*margin-left: 200px;*/
