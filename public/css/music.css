@@ -5,16 +5,14 @@ body {
 	padding: 0px;
 	font-family: "Verdana";
 	font-size: 16px;
-	background-image: url(http://media.lehighvalleylive.com/music_impact/photo/dr-dog-fce78d3db07fc8d4.jpg);
-	background-size: cover;
-	background-repeat: none;
-	background-position: center center;
+	background-color: #0f3f6f;
 }
 
 /*Header Section*/
 header {
 	width: 100vw;
-	height: 40vh;
+	height: 20vh;
+	background-color: #0f3f6f; 
 }
 
 header #page {
@@ -25,6 +23,7 @@ header #page {
 	margin: 0 auto;
 	color: white;
 	font-style: italic;
+	background-color: #0f3f6f;
 	font-weight: 700;
 	letter-spacing: 4px;
 	border-bottom: 10px solid tomato;
@@ -158,6 +157,7 @@ footer {
 #righter ul li h2 {
 	margin-top: -10px;
 	padding-top: 0px;
+	margin-bottom: 5px;
 }
 #righter ul li:hover {
 	font-weight: 600;

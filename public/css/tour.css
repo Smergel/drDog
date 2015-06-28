@@ -6,10 +6,6 @@ body {
 	background-color: #f6f6f6;
 	font-family: "Verdana";
 	font-size: 16px;
-	background-image: url(http://media2.fdncms.com/charleston/imager/dr-dog-at-the-music-farm-2011/u/zoom/3644992/dr.dog_twg_87.jpg);
-	background-size: cover;
-	background-repeat: none;
-	background-position: center center;
 }
 
 /*Header Section*/
@@ -18,16 +14,10 @@ header {
 	height: 20vh;
 	background-color: #0f3f6f;
 }
-/*header #drDog_logo {
-	width: 350px;
-	height: auto;
-	position: absolute;
-	left: 50%;
-	margin-left: -175px;
-}*/
 header #page {
 	width: 1140px;
 	height: 100%;
+	background-color: #0f3f6f;
 	text-align: center;
 	font-size: 7em;
 	margin: 0 auto;
@@ -181,6 +171,7 @@ footer {
 #righter ul li h2 {
 	margin-top: -10px;
 	padding-top: 0px;
+	margin-bottom: 5px;
 }
 #righter ul li:hover {
 	font-weight: 600;
