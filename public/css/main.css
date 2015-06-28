@@ -277,7 +277,6 @@ nav ul li:hover + #test{
 	transition: left 300ms cubic-bezier(0, 0, 1, 1);
 }
 
-
 #toggleHome{
 	top: 100px;
 }
@@ -351,4 +350,3 @@ nav ul li:hover + #test{
 	top: 260px;
 	display: none;
 }
-
